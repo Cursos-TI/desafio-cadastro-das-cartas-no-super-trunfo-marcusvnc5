@@ -126,5 +126,12 @@ int main (){
     printf("PIB per Capta: %f\n", resultadoF);
     printf("Super Poder: %f\n", resultadoG);
 
+    printf("Comparação de Cartas (Atributo: População):\n");
+    if(Populacao1 > Populacao2){
+        printf("Carta 1 (Manaus) venceu!\n");
+    }else {
+        printf("Carta 2 (Fortaleza) venceu!\n");
+    }
+
     return 0;
 }
